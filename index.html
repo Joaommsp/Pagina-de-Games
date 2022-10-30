@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Web Store de jogos feita com API" />
+    <meta name="author" content="João Marcos" />
+
+    <link rel="stylesheet" media="(max-width: 600px)" href="./src/mobile.css" />
+    <link
+      rel="stylesheet"
+      media="(min-width: 600px) and (max-width: 800px)"
+      href="./src/tablet.css"
+    />
+    <link rel="stylesheet" media="(min-width:800px)" href="./src/style.css" />
+
+    <link rel="shortcut icon" href="./img/page_icon.png" type="image/x-icon" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+    </style>
+
+    <title>Best Games</title>
+  </head>
+  <body>
+    <header id="cabecalho">
+      <img
+        src="./Public/xbox-control-for-one-svgrepo-com.svg"
+        alt="Logo Xbox Control"
+        id="logo"
+      />
+      <nav id="menu">
+        <ul>
+          <li><a href="#">LOJA</a></li>
+          <li><a href="#">COMUNIDADE</a></li>
+          <li><a href="#">MEU PERFIL</a></li>
+          <li><a href="#">SUPORTE</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="banner">
+        <img
+          src="./img/main_banner.jpg"
+          id="main_img_banner"
+          alt="Imagem com várias capas de Jogos"
+        />
+        <div id="banner_destaque"></div>
+      </div>
+
+      <div id="firstGamesbanner">
+        <div id="one" title="GTA V"></div>
+        <div id="two" title="FORZA HORIZON 4"></div>
+        <div id="three" title="NFS HEAT"></div>
+      </div>
+
+      <section id="cards">
+        <h3 class="container_titles">MAIS POPULARES</h3>
+        <div id="container_cards_populares">
+          <div id="card_api"></div>
+        </div>
+        <div class="destaqueCard">
+          <img
+            src="./img/TLOU.jpg"
+            alt="Capa The Last Of Us 2"
+            title="The Last of us Part II"
+          />
+        </div>
+
+        <h3 class="container_titles">ÚLTIMOS LANÇAMENTOS</h3>
+        <div id="container-cards_lancamentos">
+          <div id="card_api_lancamentos"></div>
+        </div>
+        <div class="destaqueCard">
+          <img
+            src="./img/OVER2.jpg"
+            alt="Capa Overwatch 2"
+            title="Overwatch 2"
+          />
+        </div>
+
+        <h3 class="container_titles">MELHORES AVALIAÇÕES</h3>
+        <div id="container-cards_rate">
+          <div id="card_api_rate"></div>
+        </div>
+        <div class="destaqueCard">
+          <img
+            src="./img/SPIDERMAN.jpg"
+            alt="Capa The Marvel Spider Man"
+            title="Marvel Spider Man"
+          />
+        </div>
+      </section>
+    </main>
+    <span id="emConstrucao">🚧🚧🚧Site em construção⚠️⚠️⚠️</span>
+    <footer id="rodape">
+      <address id="contato">
+        Dev: João Marcos <br />
+        E-mail: <a href="mailto:jmmsp2003@hotmail.com">jmmsp2003@hotmail.com</a>
+        <br />
+
+        Tel:<a href="tel:+5575988275212">(75)98827-5212 (whatsapp)</a>
+        <br />
+        API:
+
+        <a href="https://rawg.io/apidocs" target="_blank"
+          >https://rawg.io/apidocs</a
+        >
+      </address>
+    </footer>
+    <script src="./src/main.js"></script>
+  </body>
+</html>

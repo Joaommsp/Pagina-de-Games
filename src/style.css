@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*=====================BODY DEFINITIONS==============*/
+body {
+  background-image: url(../img/Background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+:root {
+  --mainColor: #171a21;
+  --transparent: rgba(255, 255, 255, 0);
+  --black-glass: rgba(0, 0, 0, 0.5);
+  --white: #ffff;
+  --letterColor: #b8b6b4;
+}
+
+/*===================HEADER=====================*/
+#cabecalho {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.noScroll {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: transparent;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.scroll {
+  background: rgba( 0, 0, 0, 0.8 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 15px );
+-webkit-backdrop-filter: blur( 15px );
+}
+
+#logo {
+  width: 200px;
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+}
+
+#menu ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+#menu ul li:first-child {
+  margin-left: 50px;
+}
+
+#menu ul li a{
+  margin-left: 25px;
+  padding: 9px;
+  border-radius: 20px;
+  color: var(--white);
+  text-decoration: none;
+  border:  3px solid transparent;
+  font-size: 0.9em;
+}
+
+#menu ul li a:hover {
+  border:  3px solid #00FFD1;
+  transition: all linear 0.5s;
+}
+
+/*=========================BANNER=====================*/
+
+#banner{
+  position: relative;
+  background: linear-gradient(to bottom, rgba(149, 149, 187, 0), transparent), url('./imagens/banner_background.jpg');
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding: 3vh;
+}
+
+#banner #main_img_banner {
+  width: 90%;
+  border: 2px solid rgba(0, 0, 0, 0.288);
+  border-radius: 10px;
+  box-shadow:
+  32px 7px 35px rgba(0, 0, 0, 1)
+;
+
+}
+
+#banner_destaque {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 55px;
+  position: absolute;
+  bottom: 10%;
+  right: 0%;
+  background-image: linear-gradient(90deg, #4d2acd31 0%, #000000 100%);
+  color: antiquewhite;
+  padding: 1vh;
+}
+
+/*===================BANNER 2=================*/
+#firstGamesbanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#firstGamesbanner div{
+  background-color: #000F18;
+  width: 300px;
+  height: 300px;
+}
+
+#firstGamesbanner #one{
+  background-image: url(../img/GTA5.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow:
+  1.9px 0.8px 2.2px rgba(0, 0, 0, 0.191),
+  4.5px 1.9px 5.3px rgba(0, 0, 0, 0.275),
+  8.4px 3.6px 10px rgba(0, 0, 0, 0.34),
+  15px 6.5px 17.9px rgba(0, 0, 0, 0.405),
+  28px 12.1px 33.4px rgba(0, 0, 0, 0.489),
+  67px 29px 80px rgba(0, 0, 0, 0.68)
+;
+}
+
+#firstGamesbanner #one:hover {
+  border: 1px solid rgba(0, 0, 0);
+}
+
+#firstGamesbanner #two {
+  background-image: url(../img/FORZA4.jpg);
+  background-size: cover;
+  background-position: left;
+  box-shadow:
+  1.9px 0.8px 2.2px rgba(0, 0, 0, 0.191),
+  4.5px 1.9px 5.3px rgba(0, 0, 0, 0.275),
+  8.4px 3.6px 10px rgba(0, 0, 0, 0.34),
+  15px 6.5px 17.9px rgba(0, 0, 0, 0.405),
+  28px 12.1px 33.4px rgba(0, 0, 0, 0.489),
+  67px 29px 80px rgba(0, 0, 0, 0.68)
+;
+}
+
+#firstGamesbanner #two:hover {
+  border: 1px solid rgba(0, 0, 0);
+}
+
+#firstGamesbanner #three {
+  background-image: url(../img/NFS_HEAT.jpg);
+  background-size: cover;
+  background-position: left;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow:
+  1.9px 0.8px 2.2px rgba(0, 0, 0, 0.191),
+  4.5px 1.9px 5.3px rgba(0, 0, 0, 0.275),
+  8.4px 3.6px 10px rgba(0, 0, 0, 0.34),
+  15px 6.5px 17.9px rgba(0, 0, 0, 0.405),
+  28px 12.1px 33.4px rgba(0, 0, 0, 0.489),
+  67px 29px 80px rgba(0, 0, 0, 0.68)
+;
+}
+
+#firstGamesbanner #three:hover {
+  border: 1px solid rgba(0, 0, 0);
+}
+
+
+/*==================GAMES AREA=================*/
+#container_cards_populares {
+  display: flex;
+}
+
+#container-cards_lancamentos {
+  display: flex;
+}
+
+#container-cards_rate {
+  display: flex;
+}
+
+#card_api {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.destaqueCard {
+  width: 100%;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.destaqueCard img {
+  width: 60%;
+  border-radius: 10px;
+  box-shadow:
+  1.9px 0.8px 2.2px rgba(0, 0, 0, 0.191),
+  4.5px 1.9px 5.3px rgba(0, 0, 0, 0.275),
+  8.4px 3.6px 10px rgba(0, 0, 0, 0.34),
+  15px 6.5px 17.9px rgba(0, 0, 0, 0.405),
+  28px 12.1px 33.4px rgba(0, 0, 0, 0.489),
+  67px 29px 80px rgba(0, 0, 0, 0.68)
+;
+}
+
+#card_api_lancamentos {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+#card_api_rate {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.cards {
+  height: 30rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--letterColor);
+}
+
+.cards img {
+  width: 100%;
+  height: 50%;
+}
+
+.cards {
+  text-align: center;
+  position: relative;
+}
+
+.cards h2 {
+  font-size: 1.2em;
+}
+
+.cards a {
+  text-decoration: none;
+  position: absolute;
+  bottom: 20px;
+      left: 0;
+      right: 0;
+  margin-top: 20%;
+  border: 5px solid transparent;
+  color:#ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cards a:hover {
+  border-bottom: 5px solid beige;
+  transition: all linear 1s;
+}
+
+#nome_jogo {
+  font-size: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  color: #00F5FF;
+}
+
+#avaliacao_jogo {
+  color: yellow ;
+}
+
+#avaliacao_jogo img{
+  width: 15px;
+}
+
+#plataformas_jogo {
+  display: inline-block;
+  margin: 2%;
+}
+
+#cards h3 {
+  color: #ffff;
+  font-size: 1em;
+  margin-top:  4%;
+  margin-left: 6%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+#emConstrucao {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+  font-size: 1.5em;
+  color: #ffff;
+}
+
+/*==================FOOTER===================*/
+
+#rodape {
+  background-color: #000000;
+  margin-top: 3.5rem;
+  padding: 3rem;
+  text-align: center;
+}
+
+#contato {
+  color: #ffff;
+}
+
+#contato a {
+  text-decoration: none;
+  color: #002B5B;
+}
