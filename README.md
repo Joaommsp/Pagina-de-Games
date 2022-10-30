@@ -1,4 +1,4 @@
-<img src="./img/BANNER_README.png" alt="">
+<img src="./img/README_Banner.png" alt="">
 
 <h1 align="center">Game Store 🎮</h1>
 
@@ -20,12 +20,12 @@
 
 # Aplicação do JavaScritp
 
-<img src="./img/API_README.png" alt="">
+<img src="./img/API_EXIBICAO_README.png" alt="">
 <p>Link da api  <a href="https://rawg.io/apidocs">https://rawg.io/apidocs</a>
 
 # API em funcionamento
 
-<img src="./img/API_EXIBICAO_README.png" alt="">
+<img src="./img/API_README.png" alt="">
 
 # Autor
 
