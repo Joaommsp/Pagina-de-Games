@@ -7,7 +7,7 @@
 
 /*=====================BODY DEFINITIONS==============*/
 body {
-  background-image: url(../img/Background.jpg);
+  background-image: url(/img/Background.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -90,8 +90,6 @@ body {
 
 #banner {
   position: relative;
-  background: linear-gradient(to bottom, rgba(149, 149, 187, 0), transparent),
-    url("./imagens/banner_background.jpg");
   background-repeat: no-repeat;
   background-position: left top;
   background-size: cover;
@@ -137,7 +135,7 @@ body {
 }
 
 #firstGamesbanner #one {
-  background-image: url(../img/GTA5.jpg);
+  background-image: url(/img/GTA5.jpg);
   background-size: cover;
   background-position: center;
   border-top-left-radius: 10px;
@@ -153,7 +151,7 @@ body {
 }
 
 #firstGamesbanner #two {
-  background-image: url(../img/FORZA4.jpg);
+  background-image: url(/img/FORZA4.jpg);
   background-size: cover;
   background-position: left;
   box-shadow: 1.9px 0.8px 2.2px rgba(0, 0, 0, 0.191),
@@ -167,7 +165,7 @@ body {
 }
 
 #firstGamesbanner #three {
-  background-image: url(../img/NFS_HEAT.jpg);
+  background-image: url(/img/NFS_HEAT.jpg);
   background-size: cover;
   background-position: left;
   border-top-right-radius: 10px;

@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /*=====================BODY DEFINITIONS==============*/
 body {
-  background-image: url(../img/Background.jpg);
+  background-image: url(/img/Background.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -46,10 +46,10 @@ body {
 }
 
 .scroll {
-  background: rgba( 0, 0, 0, 0.8 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 15px );
--webkit-backdrop-filter: blur( 15px );
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
 }
 
 #logo {
@@ -61,7 +61,7 @@ backdrop-filter: blur( 15px );
   align-items: center;
 }
 
-#menu ul{
+#menu ul {
   list-style: none;
   display: flex;
   align-items: center;
@@ -71,26 +71,27 @@ backdrop-filter: blur( 15px );
   margin-left: 50px;
 }
 
-#menu ul li a{
+#menu ul li a {
   margin-left: 25px;
   padding: 9px;
   border-radius: 20px;
   color: var(--white);
   text-decoration: none;
-  border:  3px solid transparent;
+  border: 3px solid transparent;
   font-size: 0.9em;
 }
 
 #menu ul li a:hover {
-  border:  3px solid #00FFD1;
+  border: 3px solid #00ffd1;
   transition: all linear 0.5s;
 }
 
 /*=========================BANNER=====================*/
 
-#banner{
+#banner {
   position: relative;
-  background: linear-gradient(to bottom, rgba(149, 149, 187, 0), transparent), url('./imagens/banner_background.jpg');
+  background: linear-gradient(to bottom, rgba(149, 149, 187, 0), transparent),
+    url("./imagens/banner_background.jpg");
   background-repeat: no-repeat;
   background-position: left top;
   background-size: cover;
@@ -103,10 +104,7 @@ backdrop-filter: blur( 15px );
   width: 90%;
   border: 2px solid rgba(0, 0, 0, 0.288);
   border-radius: 10px;
-  box-shadow:
-  32px 7px 35px rgba(0, 0, 0, 1)
-;
-
+  box-shadow: 32px 7px 35px rgba(0, 0, 0, 1);
 }
 
 #banner_destaque {
@@ -132,26 +130,22 @@ backdrop-filter: blur( 15px );
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-#firstGamesbanner div{
-  background-color: #000F18;
+#firstGamesbanner div {
+  background-color: #000f18;
   width: 300px;
   height: 300px;
 }
 
-#firstGamesbanner #one{
-  background-image: url(../img/GTA5.jpg);
+#firstGamesbanner #one {
+  background-image: url(/img/GTA5.jpg);
   background-size: cover;
   background-position: center;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  box-shadow:
-  1.9px 0.8px 2.2px rgba(0, 0, 0, 0.191),
-  4.5px 1.9px 5.3px rgba(0, 0, 0, 0.275),
-  8.4px 3.6px 10px rgba(0, 0, 0, 0.34),
-  15px 6.5px 17.9px rgba(0, 0, 0, 0.405),
-  28px 12.1px 33.4px rgba(0, 0, 0, 0.489),
-  67px 29px 80px rgba(0, 0, 0, 0.68)
-;
+  box-shadow: 1.9px 0.8px 2.2px rgba(0, 0, 0, 0.191),
+    4.5px 1.9px 5.3px rgba(0, 0, 0, 0.275), 8.4px 3.6px 10px rgba(0, 0, 0, 0.34),
+    15px 6.5px 17.9px rgba(0, 0, 0, 0.405),
+    28px 12.1px 33.4px rgba(0, 0, 0, 0.489), 67px 29px 80px rgba(0, 0, 0, 0.68);
 }
 
 #firstGamesbanner #one:hover {
@@ -159,17 +153,13 @@ backdrop-filter: blur( 15px );
 }
 
 #firstGamesbanner #two {
-  background-image: url(../img/FORZA4.jpg);
+  background-image: url(/img/FORZA4.jpg);
   background-size: cover;
   background-position: left;
-  box-shadow:
-  1.9px 0.8px 2.2px rgba(0, 0, 0, 0.191),
-  4.5px 1.9px 5.3px rgba(0, 0, 0, 0.275),
-  8.4px 3.6px 10px rgba(0, 0, 0, 0.34),
-  15px 6.5px 17.9px rgba(0, 0, 0, 0.405),
-  28px 12.1px 33.4px rgba(0, 0, 0, 0.489),
-  67px 29px 80px rgba(0, 0, 0, 0.68)
-;
+  box-shadow: 1.9px 0.8px 2.2px rgba(0, 0, 0, 0.191),
+    4.5px 1.9px 5.3px rgba(0, 0, 0, 0.275), 8.4px 3.6px 10px rgba(0, 0, 0, 0.34),
+    15px 6.5px 17.9px rgba(0, 0, 0, 0.405),
+    28px 12.1px 33.4px rgba(0, 0, 0, 0.489), 67px 29px 80px rgba(0, 0, 0, 0.68);
 }
 
 #firstGamesbanner #two:hover {
@@ -177,25 +167,20 @@ backdrop-filter: blur( 15px );
 }
 
 #firstGamesbanner #three {
-  background-image: url(../img/NFS_HEAT.jpg);
+  background-image: url(/img/NFS_HEAT.jpg);
   background-size: cover;
   background-position: left;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  box-shadow:
-  1.9px 0.8px 2.2px rgba(0, 0, 0, 0.191),
-  4.5px 1.9px 5.3px rgba(0, 0, 0, 0.275),
-  8.4px 3.6px 10px rgba(0, 0, 0, 0.34),
-  15px 6.5px 17.9px rgba(0, 0, 0, 0.405),
-  28px 12.1px 33.4px rgba(0, 0, 0, 0.489),
-  67px 29px 80px rgba(0, 0, 0, 0.68)
-;
+  box-shadow: 1.9px 0.8px 2.2px rgba(0, 0, 0, 0.191),
+    4.5px 1.9px 5.3px rgba(0, 0, 0, 0.275), 8.4px 3.6px 10px rgba(0, 0, 0, 0.34),
+    15px 6.5px 17.9px rgba(0, 0, 0, 0.405),
+    28px 12.1px 33.4px rgba(0, 0, 0, 0.489), 67px 29px 80px rgba(0, 0, 0, 0.68);
 }
 
 #firstGamesbanner #three:hover {
   border: 1px solid rgba(0, 0, 0);
 }
-
 
 /*==================GAMES AREA=================*/
 #container_cards_populares {
@@ -229,16 +214,12 @@ backdrop-filter: blur( 15px );
 }
 
 .destaqueCard img {
-  width: 60%;
+  width: 50rem;
   border-radius: 10px;
-  box-shadow:
-  1.9px 0.8px 2.2px rgba(0, 0, 0, 0.191),
-  4.5px 1.9px 5.3px rgba(0, 0, 0, 0.275),
-  8.4px 3.6px 10px rgba(0, 0, 0, 0.34),
-  15px 6.5px 17.9px rgba(0, 0, 0, 0.405),
-  28px 12.1px 33.4px rgba(0, 0, 0, 0.489),
-  67px 29px 80px rgba(0, 0, 0, 0.68)
-;
+  box-shadow: 1.9px 0.8px 2.2px rgba(0, 0, 0, 0.191),
+    4.5px 1.9px 5.3px rgba(0, 0, 0, 0.275), 8.4px 3.6px 10px rgba(0, 0, 0, 0.34),
+    15px 6.5px 17.9px rgba(0, 0, 0, 0.405),
+    28px 12.1px 33.4px rgba(0, 0, 0, 0.489), 67px 29px 80px rgba(0, 0, 0, 0.68);
 }
 
 #card_api_lancamentos {
@@ -248,7 +229,6 @@ backdrop-filter: blur( 15px );
   margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.8);
 }
-
 
 #card_api_rate {
   display: grid;
@@ -283,12 +263,12 @@ backdrop-filter: blur( 15px );
   text-decoration: none;
   position: absolute;
   bottom: 20px;
-      left: 0;
-      right: 0;
+  left: 0;
+  right: 0;
   margin-top: 20%;
   border: 5px solid transparent;
-  color:#ffffff;
-  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
 }
 
 .cards a:hover {
@@ -298,15 +278,15 @@ backdrop-filter: blur( 15px );
 
 #nome_jogo {
   font-size: 1.5em;
-  font-family: 'Poppins', sans-serif;
-  color: #00F5FF;
+  font-family: "Poppins", sans-serif;
+  color: #00f5ff;
 }
 
 #avaliacao_jogo {
-  color: yellow ;
+  color: yellow;
 }
 
-#avaliacao_jogo img{
+#avaliacao_jogo img {
   width: 15px;
 }
 
@@ -318,9 +298,9 @@ backdrop-filter: blur( 15px );
 #cards h3 {
   color: #ffff;
   font-size: 1em;
-  margin-top:  4%;
+  margin-top: 4%;
   margin-left: 6%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
 
@@ -347,5 +327,5 @@ backdrop-filter: blur( 15px );
 
 #contato a {
   text-decoration: none;
-  color: #002B5B;
+  color: #002b5b;
 }
